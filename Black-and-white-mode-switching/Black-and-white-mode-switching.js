@@ -24,8 +24,3 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
-
-
-
-//在页面上需要有一个id为theme-button的模块
-//theme-button模块下有图表样式，比如<i class="ri-moon-line change-theme" id="theme-button"></i>
