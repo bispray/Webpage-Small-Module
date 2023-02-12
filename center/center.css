@@ -1,0 +1,29 @@
+/*居中方式*/
+/*grid布局*/
+.div-test{
+	display: grid;
+	justify-items: center;
+	align-items: center;	
+}
+
+/*flex布局*/
+.div-test{
+	display: flex;
+	 align-items: center;	
+	align-items: center;	
+}
+
+/*
+定位+变形
+父元素相对定位
+子元素绝对定位
+*/
+.root{
+	position: relative;
+}
+.son{
+	position: absolute;
+	left: 50%; /*相对父元素*/
+	top: 50%; /*相对父元素*/
+	transform: translate(-50%,-50%); /*子元素自身*/
+}
